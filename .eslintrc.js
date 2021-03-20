@@ -1,6 +1,9 @@
 module.exports = {
+  'eslint.validate': ['javascript', 'typescript'],
+  'typescript.tsdk': 'node_modules/typescript/lib',
   env: {
     node: true,
+    jest: true,
   },
   extends: [
     'plugin:@typescript-eslint/eslint-recommended',
